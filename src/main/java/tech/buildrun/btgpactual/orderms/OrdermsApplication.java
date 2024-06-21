@@ -2,7 +2,6 @@ package tech.buildrun.btgpactual.orderms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.expression.common.CompositeStringExpression;
 
 @SpringBootApplication
 public class OrdermsApplication {
