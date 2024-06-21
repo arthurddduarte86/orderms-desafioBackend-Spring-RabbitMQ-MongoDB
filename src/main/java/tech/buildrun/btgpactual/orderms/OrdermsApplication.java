@@ -2,6 +2,7 @@ package tech.buildrun.btgpactual.orderms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.expression.common.CompositeStringExpression;
 
 @SpringBootApplication
 public class OrdermsApplication {
@@ -11,3 +12,25 @@ public class OrdermsApplication {
 	}
 
 }
+
+/*
+JSON PARA TESTE
+
+{
+	"codigoPedido": 1001,
+		"codigoCliente": 1,
+		"itens": [
+	{
+		"produto": "lapis",
+			"quantidade": 100,
+			"preco": 1.10
+	},
+	{
+		"produto": "caderno",
+			"quantidade": 10,
+			"preco": 1.00
+	}
+    ]
+}
+
+ */
